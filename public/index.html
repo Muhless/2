@@ -21,8 +21,9 @@
             <div class="basis-1/2 flex items-center justify-evenly">
                 <a href="#home"><span>Home</span></a>
                 <a href="#skill"><span>Skill</span></a>
-                <a href="#footer"><span>Kontak</span></a>
-                <a href="#CV"><span>CV</span></a>
+                <a href="#portofolio"><span>Portofolio</span></a>
+                <a href="#karir"><span>Karir</span></a>
+                <a href="#kontak"><span>Kontak</span></a>
             </div>
             <!-- dark mode -->
             <div class="basis-1/4 flex justify-end">
@@ -80,7 +81,7 @@
         </div>
 
         <!-- speciality -->
-        <div id="skill" class="bg-slate-50 py-24">
+        <div id="skill" class="bg-slate-50 py-60">
             <div class="flex flex-col place-items-center">
                 <!-- JUDUL -->
                 <div>
@@ -143,7 +144,7 @@
         </div>
 
         <!-- portofolio -->
-        <div id="portofolio" class="bg-gray-800 py-24">
+        <div id="portofolio" class="bg-gray-800 py-60">
             <!-- judul -->
             <div class="w-9/12 mx-auto">
                 <div class="flex flex-col">
@@ -157,16 +158,17 @@
                     </div>
                     <h3 class="text-3xl text-white">Portofolio Saya</h3>
                 </div>
-
+                <!-- card -->
                 <div class="grid grid-cols-4 mt-20 gap-20">
+                    <!-- 1 -->
                     <div class="rounded-lg  shadow-lg overflow-hidden ">
-                        <img src="/public/img/companyprofile.png" alt="" class="object-cover h-48 opacity-50" >
+                        <img src="/public/img/companyprofile.png" alt="" class="object-cover h-48 opacity-50">
                         <div class="bg-white py-2 px-4">
                             <h4 class="text-sm font-medium text-gray-800">Company Profile</h4>
                             <h5 class="text-sm font-mono font-light">React JS</h5>
                         </div>
                     </div>
-
+                    <!-- 2 -->
                     <div class="rounded-lg shadow-lg overflow-hidden ">
                         <img src="/public/img/agency.png" alt="" class="object-cover h-48 opacity-50">
                         <div class="bg-white py-2 px-4">
@@ -174,15 +176,15 @@
                             <h5 class="text-sm font-mono font-light">Wordpress</h5>
                         </div>
                     </div>
-
+                    <!-- 3 -->
                     <div class="rounded-lg shadow-lg overflow-hidden ">
                         <img src="/public/img/lms.png" alt="" class="object-cover h-48 opacity-50">
                         <div class="bg-white py-2 px-4">
                             <h4 class="text-sm font-medium text-gray-800"">LMS</h4>
-                            <h5 class="text-sm font-mono font-light">HTML</h5>
+                            <h5 class=" text-sm font-mono font-light">HTML</h5>
                         </div>
                     </div>
-
+                    <!-- 4 -->
                     <div class="rounded-lg shadow-lg overflow-hidden ">
                         <img src="/public/img/dashboard.png" alt="" class="object-cover h-48 opacity-50">
                         <div class="bg-white py-2 px-4">
@@ -190,13 +192,69 @@
                             <h5 class="text-sm font-mono font-light">PHP</h5>
                         </div>
                     </div>
-
                 </div>
-
 
             </div>
         </div>
-        <!-- card -->
+
+        <div id="karir" class="bg-slate-50 py-60">
+            <div class="mx-auto w-9/12 flex flex-row items-center">
+                <div class="basis h-1/3">
+                    <div class="flex flex-col">
+                        <div class="flex items-center">
+                            <svg class="stroke-gray-800 stroke-2 h-5 w-5">
+                                <line x1="0" y1="10px" x2="10px" y2="10px" />
+                            </svg>
+                            <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-gray-800">
+                                Karir
+                            </h2>
+                        </div>
+                        <h3 class="text-3xl text-gray-800">Pengalaman Saya</h3>
+
+                        <div class="flex flex-col mt-10 gap-y-5 pr-8">
+                            <a href="" class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Bukabapak</span> > </a>
+                            <a href="" class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Mixue</span> > </a>
+                            <a href="" class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Tokoceria</span> > </a>
+                            <a href="" class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Travelupa</span> > </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- project -->
+                <div class="basis-1/2 mx-auto">
+                    <h4 class="text-gray-800 uppercase tracking-ngangkang font-bold">Front End</h4>
+                    <h5 class="font-mono text-sm">Tangerang, Indonesia</h5>
+                    <p class="mt-5">Januari 2023 - sekarang</p>
+                    <div>
+                        <span class="border border-solid border-black px-2 rounded-lg">React JS</span>
+                        <span class="border border-solid border-black px-2 rounded-lg">Laravel</span>
+                    </div>
+                    <hr class="my-3">
+                    <ul class="list-disc list-inside leading-10">
+                        <li class="">Membuat Landing Page</li>
+                        <li class="">Menambah Page</li>
+                        <li class="">Fix Bug</li>
+                        <li class="">Maintenace</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="kontak" class="bg-gray-800 py-60">
+            <div class="w-9/12 mx-auto">
+                <div class="flex flex-col">
+                    <div class="flex items-center">
+                        <svg class="stroke-white stroke-2 h-5 w-5">
+                            <line x1="0" y1="10px" x2="10px" y2="10px" />
+                        </svg>
+                        <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-white">
+                            Kontak
+                        </h2>
+                    </div>
+                    <h3 class="text-3xl text-white">Hubungi Saya</h3>
+            </div>
+        </div>
 
 
     </main>
