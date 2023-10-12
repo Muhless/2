@@ -2,9 +2,9 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/style.css" />
     <title>Portofolio</title>
 </head>
 
@@ -21,8 +21,8 @@
             <div class="basis-1/2 flex items-center justify-evenly">
                 <a href="#home"><span>Home</span></a>
                 <a href="#skill"><span>Skill</span></a>
+                <a href="#footer"><span>Kontak</span></a>
                 <a href="#CV"><span>CV</span></a>
-                <a href="footer"><span>Kontak</span></a>
             </div>
             <!-- dark mode -->
             <div class="basis-1/4 flex justify-end">
@@ -43,97 +43,166 @@
 
     <!-- main -->
     <main id="home">
+        <!-- home -->
         <div class="relative -top-16">
             <div class="w-9/12 flex h-screen items-center mx-auto mb-20 gap-10">
                 <div class="basis-1/2">
-                    <div class="flex items-center ">
+                    <div class="flex items-center">
                         <svg class="stroke-gray-400 stroke-2 h-5 w-5">
                             <line x1="0" y1="10px" x2="10px" y2="10px" />
                         </svg>
-                        <h2 class="uppercase text-lg font-extralight tracking-ngangkang text-white">Hallo Saya</h2>
+                        <h2 class="uppercase text-lg font-extralight tracking-ngangkang text-white">
+                            Hallo Saya
+                        </h2>
                     </div>
                     <h3 class="font-bold text-4xl text-white mb-3">
                         <span>Muhta</span>
                         <span class="text-blue-700">Nuryadi.</span>
                     </h3>
-                    <p class="font-light text-gray-300">Saya adalah seorang Fresh Graduate yang memiliki kemampuan dan
-                        keahlian di
-                        bidang front end, saya
-                        sangat handal dalam membuat website menggunakan React JS dan Next JS
+                    <p class="font-light text-gray-300">
+                        Saya adalah seorang Fresh Graduate yang memiliki kemampuan dan
+                        keahlian di bidang front end, saya sangat handal dalam membuat
+                        website menggunakan React JS dan Next JS
                     </p>
                     <div class="flex flex-row mt-5 space-x-3">
-                        <img class="w-6 h-6 bg-white rounded-xl" src="/img/github.png" alt="">
-                        <img class="w-6 h-6 bg-white rounded-xl" src="/img/facebook.png" alt="">
-                        <img class="w-6 h-6 bg-white rounded-xl" src="/img/instagram.png" alt="">
-                        <img class="w-6 h-6 bg-white rounded-xl" src="/img/linkedin (1).png" alt="">
+                        <img class="w-6 h-6 bg-white rounded-xl" src="/public/img/github.png" alt="" />
+                        <img class="w-6 h-6 bg-white rounded-xl" src="/public/img/facebook.png" alt="" />
+                        <img class="w-6 h-6 bg-white rounded-xl" src="/public/img/instagram.png" alt="" />
+                        <img class="w-6 h-6 bg-white rounded-xl" src="/public/img/linkedin (1).png" alt="" />
                     </div>
                 </div>
 
                 <!-- avatar -->
                 <div class="basis-1/2">
-                    <img class="mx-auto" src="/img/IMG-20181220-WA0015.jpg" alt="">
+                    <img class="mx-auto" src="/public/img/IMG-20181220-WA0015.jpg" alt="" />
                 </div>
             </div>
-
-            <!-- speciality -->
-            <div id="skill" class="bg-slate-50 py-24  h-screen">
-                <div class="flex flex-col place-items-center">
-                    <!-- JUDUL -->
-                    <div>
-                        <div class="flex items-center">
-                            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
-                                <line x1="0" y1="10px" x2="10px" y2="10px" />
-                            </svg>
-                            <h2 class="uppercase text-xs font-extralight tracking-ngangkang">skill</h2>
-                        </div>
-                        <h3 class="text-3xl">Kemahiran Saya</h3>
-                    </div>
-
-                    <div class="grid grid-cols-3 gap-10 py-10">
-                        <!-- 1 -->
-                        <div class="shadow-lg rounded bg-white">
-                            <div class="flex flex-col items-center py-10 px-10">
-                                <div>
-                                    <img class="w-full rounded" src="/img/crown.png" alt="">
-                                </div>
-                                <h4 class="text-black">UI/UX</h4>
-                                <p class="text-center font-extralight mt-2 text-gray-500">Membuat desain website sesuai
-                                    dengan kebutuhan perusahaan</p>
-                            </div>
-                        </div>
-                        <!-- 2 -->
-                        <div class="shadow-lg rounded bg-white">
-                            <div class="flex flex-col items-center py-10 px-10">
-                                <div>
-                                    <img class="w-full rounded" src="/img/dashboards.png" alt="">
-                                </div>
-                                <h4 class="text-black">Front End</h4>
-                                <p class="text-center font-extralight mt-2 text-gray-500">Mengaplikasikan design dan ide
-                                    ke dalam sebuah website menggunakan framework javascript seperti ReactJS dan NextJS
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- card 3 -->
-                        <div class="shadow-lg rounded bg-white">
-                            <div class="flex flex-col items-center py-10 px-10">
-                                <div>
-                                    <img class="w-full rounded" src="/img/global.png" alt="">
-                                </div>
-                                <h4 class="text-black">Back End</h4>
-                                <p class="text-center font-extralight mt-2 text-gray-500">Membuat database dan sistem pengelola secara efisien menggunakan NodeJS</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
         </div>
+
+        <!-- speciality -->
+        <div id="skill" class="bg-slate-50 py-24">
+            <div class="flex flex-col place-items-center">
+                <!-- JUDUL -->
+                <div>
+                    <div class="flex items-center">
+                        <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                            <line x1="0" y1="10px" x2="10px" y2="10px" />
+                        </svg>
+                        <h2 class="uppercase text-xs font-extralight tracking-ngangkang">
+                            skill
+                        </h2>
+                    </div>
+                    <h3 class="text-3xl">Kemahiran Saya</h3>
+                </div>
+
+                <!-- skill -->
+                <div class="grid grid-cols-3 gap-10 py-10">
+                    <!-- 1 -->
+                    <div class="shadow-lg rounded bg-white">
+                        <div class="flex flex-col items-center py-10 px-10">
+                            <div>
+                                <img class="w-full rounded" src="/public/img/crown.png" alt="" />
+                            </div>
+                            <h4 class="text-black">UI/UX</h4>
+                            <p class="text-center font-extralight mt-2 text-gray-500">
+                                Membuat desain website sesuai dengan kebutuhan perusahaan
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="shadow-lg rounded bg-white">
+                        <div class="flex flex-col items-center py-10 px-10">
+                            <div>
+                                <img class="w-full rounded" src="/public/img/dashboards.png" alt="" />
+                            </div>
+                            <h4 class="text-black">Front End</h4>
+                            <p class="text-center font-extralight mt-2 text-gray-500">
+                                Mengaplikasikan design dan ide ke dalam sebuah website
+                                menggunakan framework javascript seperti ReactJS dan NextJS
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="shadow-lg rounded bg-white">
+                        <div class="flex flex-col items-center py-10 px-10">
+                            <div>
+                                <img class="w-full rounded" src="/public/img/global.png" alt="" />
+                            </div>
+                            <h4 class="text-black">Back End</h4>
+                            <p class="text-center font-extralight mt-2 text-gray-500">
+                                Membuat database dan sistem pengelola secara efisien
+                                menggunakan NodeJS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- portofolio -->
+        <div id="portofolio" class="bg-gray-800 py-24">
+            <!-- judul -->
+            <div class="w-9/12 mx-auto">
+                <div class="flex flex-col">
+                    <div class="flex items-center">
+                        <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                            <line x1="0" y1="10px" x2="10px" y2="10px" />
+                        </svg>
+                        <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-white">
+                            Portofolio
+                        </h2>
+                    </div>
+                    <h3 class="text-3xl text-white">Portofolio Saya</h3>
+                </div>
+
+                <div class="grid grid-cols-4 mt-20 gap-20">
+                    <div class="rounded-lg  shadow-lg overflow-hidden ">
+                        <img src="/public/img/companyprofile.png" alt="" class="object-cover h-48 opacity-50" >
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Company Profile</h4>
+                            <h5 class="text-sm font-mono font-light">React JS</h5>
+                        </div>
+                    </div>
+
+                    <div class="rounded-lg shadow-lg overflow-hidden ">
+                        <img src="/public/img/agency.png" alt="" class="object-cover h-48 opacity-50">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Agency website</h4>
+                            <h5 class="text-sm font-mono font-light">Wordpress</h5>
+                        </div>
+                    </div>
+
+                    <div class="rounded-lg shadow-lg overflow-hidden ">
+                        <img src="/public/img/lms.png" alt="" class="object-cover h-48 opacity-50">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800"">LMS</h4>
+                            <h5 class="text-sm font-mono font-light">HTML</h5>
+                        </div>
+                    </div>
+
+                    <div class="rounded-lg shadow-lg overflow-hidden ">
+                        <img src="/public/img/dashboard.png" alt="" class="object-cover h-48 opacity-50">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Dashboard</h4>
+                            <h5 class="text-sm font-mono font-light">PHP</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- card -->
+
+
     </main>
 
     <!-- footer -->
-    <footer>
+    <footer id="footer">
 
     </footer>
 </body>
