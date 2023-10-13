@@ -212,10 +212,18 @@
                         <h3 class="text-3xl text-gray-800">Pengalaman Saya</h3>
 
                         <div class="flex flex-col mt-10 gap-y-5 pr-8">
-                            <a href="" class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Bukabapak</span> > </a>
-                            <a href="" class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Mixue</span> > </a>
-                            <a href="" class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Tokoceria</span> > </a>
-                            <a href="" class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Travelupa</span> > </a>
+                            <a href=""
+                                class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Bukabapak</span>
+                                > </a>
+                            <a href=""
+                                class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Mixue</span>
+                                > </a>
+                            <a href=""
+                                class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Tokoceria</span>
+                                > </a>
+                            <a href=""
+                                class="hover:bg-blue-200 hover:text-blue-800 flex flow-row justify-between bg-black text-white w-full p-4 rounded-lg "><span>Travelupa</span>
+                                > </a>
                         </div>
                     </div>
                 </div>
@@ -241,27 +249,106 @@
             </div>
         </div>
 
-        <div id="kontak" class="bg-gray-800 py-60">
-            <div class="w-9/12 mx-auto">
-                <div class="flex flex-col">
-                    <div class="flex items-center">
-                        <svg class="stroke-white stroke-2 h-5 w-5">
-                            <line x1="0" y1="10px" x2="10px" y2="10px" />
-                        </svg>
-                        <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-white">
-                            Kontak
-                        </h2>
+        <div id="kontak" class="bg-gray-800 py-36">
+            <div class="w-9/12 mx-auto flex flex-row gap-10 items-center">
+
+                <div class="basis-1/2">
+                    <!-- judul -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center">
+                            <svg class="stroke-white stroke-2 h-5 w-5">
+                                <line x1="0" y1="10px" x2="10px" y2="10px" />
+                            </svg>
+                            <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-white">
+                                Kontak
+                            </h2>
+                        </div>
+                        <h3 class="text-3xl text-white">Hubungi Saya</h3>
                     </div>
-                    <h3 class="text-3xl text-white">Hubungi Saya</h3>
+
+                    <!-- form -->
+                    <form action="#" method="post">
+                        <div class="my-4">
+                            <label for="name" class="block  text-slate-50 font-semibold">Nama</label>
+                            <input type="text" class="bg-blue-100 py-2 w-full rounded-md">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="email" class="block rounded-md text-slate-50 font-semibold">Email</label>
+                            <input type="text" class="bg-blue-100 py-2 w-full rounded-md focus:ring-blue-950">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="block text-slate-50 font-semibold">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"
+                                class="bg-blue-100 py-2 w-full rounded-md focus:ring-blue-950"></textarea>
+                        </div>
+
+                        <!-- form button -->
+                        <div class="mb-4">
+                            <button
+                                class="hover:bg-blue-600 bg-blue-500 text-slate-50 block rounded-md font-semibold mx-auto py-2 w-full focus:ring-blue-950">
+                                Kirim
+                            </button>
+                        </div>
+
+                </div>
+                </form>
+
+            <div class="basis-1/2">
+                <div class="flex flex-row gap-10 py-5 items-center">
+                    <div class="w-10 h-10 p-5 bg-slate-50 rounded-2xl">
+                        <img class="w-full" src="/public/img/crown.png" alt="">
+                    </div>
+                    <div class="">
+                        <h4 class="text-lg text-white">Alamat</h4>
+                        <hr>
+                        <h5 class="font-mono text-gray-300">Kp. Kiara RT.06 rw.01, Ds Cangkudu, Balaraja, Kab. Tangerang, 15610</h5>
+                    </div>
+                        
+                </div>
+
+                <div class="flex flex-row gap-10 py-10 items-center">
+                    <div class="w-10 h-10 p-2 bg-slate-50 rounded-2xl">
+                        <img class="w-full" src="/public/img/dashboards.png" alt="">
+                    </div>
+                    <div class="">
+                        <h4 class="text-white text-lg">No Telepon</h4>
+                        <hr>
+                        <h5 class="font-mono text-gray-300">(+62)8871165551</h5>
+                    </div>
+                </div>
+
+                <div class="flex flex-row gap-10 py-5 items-center">
+                    <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                        <img src="/public/img/instagram.png" alt="">
+                    </div>
+                    <div class="">
+                        <h4 class="text-white text-lg">E-Mail</h4>
+                        <hr>
+                        <h5 class="font-mono text-gray-300">nuryadi.muhta@gmail.com</h5>
+                    </div>
+                </div>
+
             </div>
+        </div>
+
         </div>
 
 
     </main>
 
     <!-- footer -->
-    <footer id="footer">
-
+    <footer id="footer" class="flex flex-col items-center py-10 bg-slate-50">
+        <span class="font-bold">
+            13 Oktober 2023 
+        </span>
+        <span class="font-mono">
+            Muhta Nuryadi 
+        </span>
+        <span class="tracking-ngangkang font-light">
+            Tailwind CSS, Kelas Terbuka
+        </span>
     </footer>
 </body>
 
